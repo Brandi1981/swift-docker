@@ -1,4 +1,4 @@
-FROM node:14.17.4
+FROM node:14.21.2
 
 ARG SWIFT_DOCC_RENDER_BRANCH=main
 
