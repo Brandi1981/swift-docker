@@ -1,4 +1,4 @@
-FROM ubuntu:22.04
+FROM ubuntu:22.10
 
 RUN groupadd -g 998 build-user && \
     useradd -m -r -u 998 -g build-user build-user
